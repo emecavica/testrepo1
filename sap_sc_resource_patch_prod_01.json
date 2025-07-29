@@ -1,0 +1,918 @@
+[
+  {
+    "migrationId": 1812,
+    "oib": "83512039879",
+    "billingAccount": "1182912251",
+    "customerAccount": "1182912244",
+    "subscriberId": "1788636",
+    "msisdn": "385981961258",
+    "installmentId": "145294991",
+    "productId": "38921081-eadc-40d9-a5d6-568f42d9dfc6",
+    "numOfInstallments": 21,
+    "installmentAmount": "38.98",
+    "milestone": 5,
+    "product": {
+      "id": "38921081-eadc-40d9-a5d6-568f42d9dfc6",
+      "state": "Active",
+      "billingAccount": "1182912251",
+      "instanceName": "385981961258",
+      "validFor": {
+        "start": "2025-03-02T01:41:36+01:00"
+      }
+    },
+    "shoppingCart": {
+      "billingAccount": "1182912251",
+      "channel": "Migration",
+      "id": "08123bbb-34c8-402e-9f8f-72d9968f2359",
+      "orderDate": "2025-07-28T14:47:56+02:00",
+      "parameters": {
+        "MIGRATION": "true",
+        "INVENTORY_OBRT_PRODUCTS_COUNT": "1182912251_801562725:0;1182912251_2110604988:0;1182912251_381765972:0",
+        "ORDER_CONTRACT_ID": "IN2025072834565786",
+        "INVENTORY_PRODUCTS_COUNT": "1182912251_1441161559:0;1182912251_1739779224:0;1182912251_296767658:0;1182912251_853577388:4;1182912251_2019368103:0;1182912251_1653278230:0;1182912251_1528529892:0;1182912251_807301835:0;1182912251_1412574403:4"
+      },
+      "products": [
+        {
+          "action": "modify",
+          "cancelable": true,
+          "changeable": true,
+          "id": "38921081-eadc-40d9-a5d6-568f42d9dfc6",
+          "instanceName": "385981961258",
+          "parameters": {
+            "MIGRATION": "true",
+            "bcSubscriptionId": "11819528",
+            "bcBillingAccount": "27224870001",
+            "subscriberStartDate": "2010-05-18T09:39:48",
+            "QUADRUPLE_CONSUMPTION_FLAG": "true",
+            "$productEntityKey": "DIGITAL_M",
+            "ITEMIZED_BILL_TYPE": "NO",
+            "bcSubscriberId": "1788636",
+            "migrationId": "1812",
+            "PRODUCT_TYPE": "MOBILE",
+            "HW_MARKETING_DISCOUNT": "230.20",
+            "bcMainBillingAccount": "27224870000"
+          },
+          "productCharacteristics": [
+            {
+              "action": "no_change",
+              "bindingPeriods": [
+                {
+                  "action": "no_change",
+                  "calculatedEndDate": "2027-03-02T01:41:36+01:00",
+                  "chargeSpecification": "DM_MINIMAL_CONTRACT_24",
+                  "endDate": "2027-03-02T01:41:36+01:00",
+                  "id": "23dcaed1-5215-470d-bd57-40a6cab05186",
+                  "name": "D_MINIMAL_CONTRACT_24",
+                  "startDate": "2025-03-02T01:41:36+01:00"
+                }
+              ],
+              "id": "a71a838c-7d63-44e2-851a-dbb9f730bd9a",
+              "name": "D_MINIMAL_CONTRACT_24"
+            },
+            {
+              "action": "no_change",
+              "id": "7973ab6c-05c6-4409-85dc-db1a75fa511b",
+              "name": "D_TEAM_DISCOUNT",
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "calculatedPrices": [
+                    {
+                      "frequencyMonths": 1,
+                      "grossCharge": "-1.33",
+                      "netCharge": "-1.06",
+                      "taxInformation": {
+                        "taxAmount": "-0.27",
+                        "taxRate": "25",
+                        "taxType": "VAT",
+                        "taxableAmount": "-1.06"
+                      },
+                      "tieringLevels": [
+                        {
+                          "unitsConsumed": "2",
+                          "unitsMin": 2,
+                          "value": "2.91140757940716"
+                        }
+                      ],
+                      "type": "RecurringCharge",
+                      "validFor": {
+                        "start": "2025-07-28T14:47:56+02:00"
+                      }
+                    }
+                  ],
+                  "id": "d299cd93-df24-4833-bc8a-b8441bdec96c",
+                  "name": "DM_TEAM_DISCOUNT",
+                  "validFor": {
+                    "start": "2025-03-02T01:41:36+01:00"
+                  }
+                }
+              ]
+            },
+            {
+              "action": "no_change",
+              "id": "a6af01bb-f86a-4034-a6e2-f722635777d1",
+              "name": "DM_MONTHLY_SUB_CHARGE",
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "calculatedPrices": [
+                    {
+                      "frequencyMonths": 1,
+                      "grossCharge": "45.69",
+                      "netCharge": "36.55",
+                      "taxInformation": {
+                        "taxAmount": "9.14",
+                        "taxRate": "25",
+                        "taxType": "VAT",
+                        "taxableAmount": "36.55"
+                      },
+                      "type": "RecurringCharge",
+                      "validFor": {
+                        "start": "2025-07-28T14:47:56+02:00"
+                      }
+                    }
+                  ],
+                  "id": "f9a1dbba-f07f-4246-9939-d573e9fe86a8",
+                  "name": "DM_MONTHLY_SUB_CHARGE",
+                  "validFor": {
+                    "start": "2025-03-02T01:41:36+01:00"
+                  }
+                }
+              ]
+            },
+            {
+              "action": "no_change",
+              "id": "94ea883b-697a-4fbe-9f34-26b26b376a07",
+              "name": "DM_ALLOW_99000_NAT_MINSMS",
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "calculatedPrices": [
+                    {
+                      "frequencyMonths": 1,
+                      "grossCharge": "0",
+                      "netCharge": "0",
+                      "taxInformation": {
+                        "taxAmount": "0",
+                        "taxRate": "25",
+                        "taxType": "VAT",
+                        "taxableAmount": "0"
+                      },
+                      "type": "RecurringCharge",
+                      "validFor": {
+                        "start": "2025-07-28T14:47:56+02:00"
+                      }
+                    }
+                  ],
+                  "id": "131107aa-6c3a-4a41-a545-3d2a4ca89867",
+                  "name": "DM_ALLOW_99000_NAT_MINSMS",
+                  "validFor": {
+                    "start": "2025-03-02T01:41:36+01:00"
+                  }
+                }
+              ]
+            },
+            {
+              "action": "no_change",
+              "id": "0c003468-87e1-4fcb-abd4-fac91f8313ee",
+              "name": "DM_ALLOW_2000_EUEEA_MINSMS",
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "calculatedPrices": [
+                    {
+                      "frequencyMonths": 1,
+                      "grossCharge": "0",
+                      "netCharge": "0",
+                      "taxInformation": {
+                        "taxAmount": "0",
+                        "taxRate": "25",
+                        "taxType": "VAT",
+                        "taxableAmount": "0"
+                      },
+                      "type": "RecurringCharge",
+                      "validFor": {
+                        "start": "2025-07-28T14:47:56+02:00"
+                      }
+                    }
+                  ],
+                  "id": "a326786c-6a3d-4667-99b3-cc24b380b634",
+                  "name": "DM_ALLOW_2000_EUEEA_MINSMS",
+                  "validFor": {
+                    "start": "2025-03-02T01:41:36+01:00"
+                  }
+                }
+              ]
+            },
+            {
+              "action": "modify",
+              "id": "baae9f96-8325-41ba-9569-e40620c54ca9",
+              "name": "DM_PROMO_DISCOUNT",
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "calculatedPrices": [
+                    {
+                      "frequencyMonths": 1,
+                      "grossCharge": "-1.33",
+                      "netCharge": "-1.06",
+                      "taxInformation": {
+                        "taxAmount": "-0.27",
+                        "taxRate": "25",
+                        "taxType": "VAT",
+                        "taxableAmount": "-1.06"
+                      },
+                      "type": "RecurringCharge",
+                      "validFor": {
+                        "start": "2025-07-28T14:47:56+02:00",
+                        "end": "2026-05-31T00:00:00+02:00"
+                      }
+                    }
+                  ],
+                  "id": "3a1791c1-3bd5-4fc3-8552-c9a4cb5e38af",
+                  "name": "DM_PROMO_DISCOUNT",
+                  "priceAdjustment": {
+                    "adjustedEndDate": "2026-05-31T00:00:00+02:00"
+                  },
+                  "validFor": {
+                    "start": "2025-03-02T01:41:36+01:00",
+                    "end": "2025-12-31T00:00:00+01:00"
+                  },
+                  "validityPeriod": "P1D"
+                }
+              ]
+            }
+          ],
+          "productOffering": {
+            "name": "DIGITAL_M"
+          },
+          "resources": [
+            {
+              "action": "add",
+              "cancelable": true,
+              "capabilityId": "3572864f-5a86-40d2-9901-4f102aaea887",
+              "changeable": true,
+              "id": "3572864f-5a86-40d2-9901-4f102aaea887",
+              "name": "MIGRATION_HANDSET_CLASS1",
+              "parameters": {
+                "MIGRATION": "true"
+              },
+              "prices": [
+                {
+                  "adHocPaymentRequired": false,
+                  "id": "30e57c6e-d084-4172-b894-a4dd96958af4",
+                  "name": "INST_MIGR_HANDSET_CLASS1_INSTALLMENT",
+                  "priceAdjustment": {
+                    "netCharge": "38.98",
+                    "numberOfPayments": 21
+                  }
+                },
+                {
+                  "adHocPaymentRequired": false,
+                  "id": "e927d822-f368-433e-b4bb-2e625855fdd2",
+                  "name": "INST_MIGR_HANDSET_CLASS1_OOC"
+                }
+              ],
+              "referenceName": "HANDSETS_MIGRATION",
+              "relatedParties": [
+                {
+                  "name": "HT",
+                  "role": "RESOURCE_PROVIDER"
+                }
+              ],
+              "resourceCharacteristics": [
+                {
+                  "action": "add",
+                  "id": "e7d70a03-8c29-4d24-b4a5-cef7f06104dc",
+                  "name": "IMEI"
+                }
+              ]
+            },
+            {
+              "action": "no_change",
+              "cancelable": true,
+              "capabilityId": "fb71f7a3-28d0-4d2d-b47a-a6e57eed9fda",
+              "changeable": true,
+              "id": "fb71f7a3-28d0-4d2d-b47a-a6e57eed9fda",
+              "name": "SIM_CARD",
+              "referenceName": "SIM_CARDS",
+              "relatedParties": [
+                {
+                  "name": "HT",
+                  "role": "RESOURCE_PROVIDER"
+                }
+              ],
+              "resourceCharacteristics": [
+                {
+                  "action": "no_change",
+                  "id": "32160a26-80d6-4b86-8f4f-455e550e259e",
+                  "name": "ICCID",
+                  "value": "8938599201533173237"
+                },
+                {
+                  "action": "no_change",
+                  "id": "a5bcd065-0f54-4c23-9654-eede2c481e7f",
+                  "name": "IMSI",
+                  "value": "219019906544823"
+                },
+                {
+                  "action": "no_change",
+                  "id": "1ef35f56-75b1-4e41-9171-f04330feb9f6",
+                  "name": "PUK1",
+                  "value": "61657357"
+                },
+                {
+                  "action": "no_change",
+                  "id": "b7b3b3bf-9296-4809-bc57-c1cff212f029",
+                  "name": "PUK2",
+                  "value": "94531663"
+                }
+              ]
+            }
+          ],
+          "services": [
+            {
+              "action": "no_change",
+              "cancelable": false,
+              "capabilityId": "bb041362-ce12-4108-a7c3-db72f16d6195",
+              "changeable": true,
+              "id": "bb041362-ce12-4108-a7c3-db72f16d6195",
+              "instanceName": "385981961258",
+              "name": "MOBILE_SERVICE",
+              "parameters": {},
+              "relatedParties": [
+                {
+                  "name": "HT",
+                  "role": "SERVICE_PROVIDER"
+                }
+              ],
+              "serviceCharacteristics": [
+                {
+                  "action": "no_change",
+                  "id": "2ead6036-457d-4018-b894-078c3e0355ed",
+                  "name": "MOBILE_SERVICE:MSISDN",
+                  "type": "STRING",
+                  "value": "385981961258"
+                },
+                {
+                  "action": "no_change",
+                  "id": "fe107549-a76e-4351-8682-9cd36f23dc7a",
+                  "name": "MOBILE_SERVICE:DATA_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "aef85bb9-0c2e-49dd-9641-f28ccec8c4b3",
+                  "name": "MOBILE_SERVICE:ROAMING_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "0fd3ec97-59e5-4532-9105-0dd6e6b5097a",
+                  "name": "MOBILE_SERVICE:VOLTE_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "6a910d86-177f-4c78-a9c2-75a1a4a6784f",
+                  "name": "MOBILE_SERVICE:SMS_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "34b6fe17-9444-4767-b834-835a3df90532",
+                  "name": "MOBILE_SERVICE:MMS_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "8bfd1a05-db93-40ee-a613-39cdf5f8e741",
+                  "name": "MOBILE_SERVICE:VOICE_MAIL_ENABLED",
+                  "type": "SELECT",
+                  "value": "NO"
+                },
+                {
+                  "action": "no_change",
+                  "id": "9ba22c39-702f-421c-b46e-678456f0a19f",
+                  "name": "MOBILE_SERVICE:VOICE_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "b1f7b89d-85a4-4572-a980-884b4d03dd50",
+                  "name": "MOBILE_SERVICE:DATA_PROFILE",
+                  "type": "SELECT",
+                  "value": "VS3"
+                },
+                {
+                  "action": "no_change",
+                  "id": "8613aff3-a86d-4f3a-85b5-1834f623f35d",
+                  "name": "MOBILE_SERVICE:MOBILE_MARKET_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "79f88a64-a366-4ce4-b213-b2a8c36197e3",
+                  "name": "MOBILE_SERVICE:MOBILE_PAYMENT_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "c78b33a3-634a-4949-b746-9dd2233d7c8e",
+                  "name": "MOBILE_SERVICE:SMS_PARKING_ENABLED",
+                  "type": "SELECT",
+                  "value": "YES"
+                },
+                {
+                  "action": "no_change",
+                  "id": "c0cd2be8-c930-4258-88dc-1affeef44935",
+                  "name": "MOBILE_SERVICE:CISCO_SECURITY",
+                  "type": "SELECT",
+                  "value": "YES"
+                }
+              ],
+              "serviceIdentifier": "385981961258",
+              "usageAdjustments": {}
+            }
+          ],
+          "wholesale": false,
+          "wholesaleAgreement": false
+        }
+      ],
+      "usedFunds": {
+        "38687231": {
+          "amount": "0",
+          "amountIncludingOrderChanges": "0",
+          "billingAccount": "1182912251",
+          "displayName": "Hardware Budget",
+          "fundChangesOnOrder": "0",
+          "name": "HARDWARE_BUDGET",
+          "reference": "38687231",
+          "type": "MONETARY",
+          "unit": "EUR",
+          "validFor": {
+            "start": "2025-06-15T03:16:14+02:00"
+          }
+        }
+      },
+      "user": "migration-client"
+    },
+    "productOrder": {
+      "billingAccount": "1182912251",
+      "channel": "Migration",
+      "expectedCompletionDate": "2025-07-28T14:48:00+02:00",
+      "id": "7021756",
+      "operator": "migration-client",
+      "orderDate": "2025-07-28T14:47:56+02:00",
+      "orderItems": [
+        {
+          "action": "modify",
+          "cancelable": true,
+          "changeable": true,
+          "id": "7021757",
+          "product": {
+            "action": "modify",
+            "cancelable": true,
+            "changeable": true,
+            "id": "38921081-eadc-40d9-a5d6-568f42d9dfc6",
+            "instanceName": "385981961258",
+            "parameters": {
+              "MIGRATION": "true",
+              "bcSubscriptionId": "11819528",
+              "bcBillingAccount": "27224870001",
+              "subscriberStartDate": "2010-05-18T09:39:48",
+              "QUADRUPLE_CONSUMPTION_FLAG": "true",
+              "$productEntityKey": "DIGITAL_M",
+              "ITEMIZED_BILL_TYPE": "NO",
+              "bcSubscriberId": "1788636",
+              "migrationId": "1812",
+              "PRODUCT_TYPE": "MOBILE",
+              "HW_MARKETING_DISCOUNT": "230.20",
+              "bcMainBillingAccount": "27224870000"
+            },
+            "productCharacteristics": [
+              {
+                "action": "no_change",
+                "bindingPeriods": [
+                  {
+                    "action": "no_change",
+                    "calculatedEndDate": "2027-03-02T01:41:36+01:00",
+                    "chargeSpecification": "DM_MINIMAL_CONTRACT_24",
+                    "endDate": "2027-03-02T01:41:36+01:00",
+                    "id": "23dcaed1-5215-470d-bd57-40a6cab05186",
+                    "name": "D_MINIMAL_CONTRACT_24",
+                    "startDate": "2025-03-02T01:41:36+01:00"
+                  }
+                ],
+                "id": "a71a838c-7d63-44e2-851a-dbb9f730bd9a",
+                "name": "D_MINIMAL_CONTRACT_24"
+              },
+              {
+                "action": "no_change",
+                "id": "7973ab6c-05c6-4409-85dc-db1a75fa511b",
+                "name": "D_TEAM_DISCOUNT",
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "calculatedPrices": [
+                      {
+                        "frequencyMonths": 1,
+                        "grossCharge": "-1.33",
+                        "netCharge": "-1.06",
+                        "taxInformation": {
+                          "taxAmount": "-0.27",
+                          "taxRate": "25",
+                          "taxType": "VAT",
+                          "taxableAmount": "-1.06"
+                        },
+                        "tieringLevels": [
+                          {
+                            "unitsConsumed": "2",
+                            "unitsMin": 2,
+                            "value": "2.91140757940716"
+                          }
+                        ],
+                        "type": "RecurringCharge",
+                        "validFor": {
+                          "start": "2025-07-28T14:47:56+02:00"
+                        }
+                      }
+                    ],
+                    "id": "d299cd93-df24-4833-bc8a-b8441bdec96c",
+                    "name": "DM_TEAM_DISCOUNT",
+                    "validFor": {
+                      "start": "2025-03-02T01:41:36+01:00"
+                    }
+                  }
+                ]
+              },
+              {
+                "action": "no_change",
+                "id": "a6af01bb-f86a-4034-a6e2-f722635777d1",
+                "name": "DM_MONTHLY_SUB_CHARGE",
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "calculatedPrices": [
+                      {
+                        "frequencyMonths": 1,
+                        "grossCharge": "45.69",
+                        "netCharge": "36.55",
+                        "taxInformation": {
+                          "taxAmount": "9.14",
+                          "taxRate": "25",
+                          "taxType": "VAT",
+                          "taxableAmount": "36.55"
+                        },
+                        "type": "RecurringCharge",
+                        "validFor": {
+                          "start": "2025-07-28T14:47:56+02:00"
+                        }
+                      }
+                    ],
+                    "id": "f9a1dbba-f07f-4246-9939-d573e9fe86a8",
+                    "name": "DM_MONTHLY_SUB_CHARGE",
+                    "validFor": {
+                      "start": "2025-03-02T01:41:36+01:00"
+                    }
+                  }
+                ]
+              },
+              {
+                "action": "no_change",
+                "id": "94ea883b-697a-4fbe-9f34-26b26b376a07",
+                "name": "DM_ALLOW_99000_NAT_MINSMS",
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "calculatedPrices": [
+                      {
+                        "frequencyMonths": 1,
+                        "grossCharge": "0",
+                        "netCharge": "0",
+                        "taxInformation": {
+                          "taxAmount": "0",
+                          "taxRate": "25",
+                          "taxType": "VAT",
+                          "taxableAmount": "0"
+                        },
+                        "type": "RecurringCharge",
+                        "validFor": {
+                          "start": "2025-07-28T14:47:56+02:00"
+                        }
+                      }
+                    ],
+                    "id": "131107aa-6c3a-4a41-a545-3d2a4ca89867",
+                    "name": "DM_ALLOW_99000_NAT_MINSMS",
+                    "validFor": {
+                      "start": "2025-03-02T01:41:36+01:00"
+                    }
+                  }
+                ]
+              },
+              {
+                "action": "no_change",
+                "id": "0c003468-87e1-4fcb-abd4-fac91f8313ee",
+                "name": "DM_ALLOW_2000_EUEEA_MINSMS",
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "calculatedPrices": [
+                      {
+                        "frequencyMonths": 1,
+                        "grossCharge": "0",
+                        "netCharge": "0",
+                        "taxInformation": {
+                          "taxAmount": "0",
+                          "taxRate": "25",
+                          "taxType": "VAT",
+                          "taxableAmount": "0"
+                        },
+                        "type": "RecurringCharge",
+                        "validFor": {
+                          "start": "2025-07-28T14:47:56+02:00"
+                        }
+                      }
+                    ],
+                    "id": "a326786c-6a3d-4667-99b3-cc24b380b634",
+                    "name": "DM_ALLOW_2000_EUEEA_MINSMS",
+                    "validFor": {
+                      "start": "2025-03-02T01:41:36+01:00"
+                    }
+                  }
+                ]
+              },
+              {
+                "action": "modify",
+                "id": "baae9f96-8325-41ba-9569-e40620c54ca9",
+                "name": "DM_PROMO_DISCOUNT",
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "calculatedPrices": [
+                      {
+                        "frequencyMonths": 1,
+                        "grossCharge": "-1.33",
+                        "netCharge": "-1.06",
+                        "taxInformation": {
+                          "taxAmount": "-0.27",
+                          "taxRate": "25",
+                          "taxType": "VAT",
+                          "taxableAmount": "-1.06"
+                        },
+                        "type": "RecurringCharge",
+                        "validFor": {
+                          "start": "2025-07-28T14:47:56+02:00",
+                          "end": "2026-05-31T00:00:00+02:00"
+                        }
+                      }
+                    ],
+                    "id": "3a1791c1-3bd5-4fc3-8552-c9a4cb5e38af",
+                    "name": "DM_PROMO_DISCOUNT",
+                    "priceAdjustment": {
+                      "adjustedEndDate": "2026-05-31T00:00:00+02:00"
+                    },
+                    "validFor": {
+                      "start": "2025-03-02T01:41:36+01:00",
+                      "end": "2025-12-31T00:00:00+01:00"
+                    },
+                    "validityPeriod": "P1D"
+                  }
+                ]
+              }
+            ],
+            "productOffering": {
+              "name": "DIGITAL_M"
+            },
+            "resources": [
+              {
+                "action": "add",
+                "cancelable": true,
+                "capabilityId": "3572864f-5a86-40d2-9901-4f102aaea887",
+                "changeable": true,
+                "id": "3572864f-5a86-40d2-9901-4f102aaea887",
+                "name": "MIGRATION_HANDSET_CLASS1",
+                "parameters": {
+                  "MIGRATION": "true"
+                },
+                "prices": [
+                  {
+                    "adHocPaymentRequired": false,
+                    "id": "30e57c6e-d084-4172-b894-a4dd96958af4",
+                    "name": "INST_MIGR_HANDSET_CLASS1_INSTALLMENT",
+                    "priceAdjustment": {
+                      "netCharge": "38.98",
+                      "numberOfPayments": 21
+                    }
+                  },
+                  {
+                    "adHocPaymentRequired": false,
+                    "id": "e927d822-f368-433e-b4bb-2e625855fdd2",
+                    "name": "INST_MIGR_HANDSET_CLASS1_OOC"
+                  }
+                ],
+                "referenceName": "HANDSETS_MIGRATION",
+                "relatedParties": [
+                  {
+                    "name": "HT",
+                    "role": "RESOURCE_PROVIDER"
+                  }
+                ],
+                "resourceCharacteristics": [
+                  {
+                    "action": "add",
+                    "id": "e7d70a03-8c29-4d24-b4a5-cef7f06104dc",
+                    "name": "IMEI"
+                  }
+                ],
+                "state": "Acknowledged"
+              },
+              {
+                "action": "no_change",
+                "cancelable": true,
+                "capabilityId": "fb71f7a3-28d0-4d2d-b47a-a6e57eed9fda",
+                "changeable": true,
+                "id": "fb71f7a3-28d0-4d2d-b47a-a6e57eed9fda",
+                "name": "SIM_CARD",
+                "referenceName": "SIM_CARDS",
+                "relatedParties": [
+                  {
+                    "name": "HT",
+                    "role": "RESOURCE_PROVIDER"
+                  }
+                ],
+                "resourceCharacteristics": [
+                  {
+                    "action": "no_change",
+                    "id": "32160a26-80d6-4b86-8f4f-455e550e259e",
+                    "name": "ICCID",
+                    "value": "8938599201533173237"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "a5bcd065-0f54-4c23-9654-eede2c481e7f",
+                    "name": "IMSI",
+                    "value": "219019906544823"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "1ef35f56-75b1-4e41-9171-f04330feb9f6",
+                    "name": "PUK1",
+                    "value": "61657357"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "b7b3b3bf-9296-4809-bc57-c1cff212f029",
+                    "name": "PUK2",
+                    "value": "94531663"
+                  }
+                ],
+                "state": "Acknowledged"
+              }
+            ],
+            "services": [
+              {
+                "action": "no_change",
+                "cancelable": false,
+                "capabilityId": "bb041362-ce12-4108-a7c3-db72f16d6195",
+                "changeable": true,
+                "id": "bb041362-ce12-4108-a7c3-db72f16d6195",
+                "instanceName": "385981961258",
+                "name": "MOBILE_SERVICE",
+                "parameters": {},
+                "relatedParties": [
+                  {
+                    "name": "HT",
+                    "role": "SERVICE_PROVIDER"
+                  }
+                ],
+                "serviceCharacteristics": [
+                  {
+                    "action": "no_change",
+                    "id": "2ead6036-457d-4018-b894-078c3e0355ed",
+                    "name": "MOBILE_SERVICE:MSISDN",
+                    "type": "STRING",
+                    "value": "385981961258"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "fe107549-a76e-4351-8682-9cd36f23dc7a",
+                    "name": "MOBILE_SERVICE:DATA_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "aef85bb9-0c2e-49dd-9641-f28ccec8c4b3",
+                    "name": "MOBILE_SERVICE:ROAMING_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "0fd3ec97-59e5-4532-9105-0dd6e6b5097a",
+                    "name": "MOBILE_SERVICE:VOLTE_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "6a910d86-177f-4c78-a9c2-75a1a4a6784f",
+                    "name": "MOBILE_SERVICE:SMS_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "34b6fe17-9444-4767-b834-835a3df90532",
+                    "name": "MOBILE_SERVICE:MMS_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "8bfd1a05-db93-40ee-a613-39cdf5f8e741",
+                    "name": "MOBILE_SERVICE:VOICE_MAIL_ENABLED",
+                    "type": "SELECT",
+                    "value": "NO"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "9ba22c39-702f-421c-b46e-678456f0a19f",
+                    "name": "MOBILE_SERVICE:VOICE_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "b1f7b89d-85a4-4572-a980-884b4d03dd50",
+                    "name": "MOBILE_SERVICE:DATA_PROFILE",
+                    "type": "SELECT",
+                    "value": "VS3"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "8613aff3-a86d-4f3a-85b5-1834f623f35d",
+                    "name": "MOBILE_SERVICE:MOBILE_MARKET_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "79f88a64-a366-4ce4-b213-b2a8c36197e3",
+                    "name": "MOBILE_SERVICE:MOBILE_PAYMENT_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "c78b33a3-634a-4949-b746-9dd2233d7c8e",
+                    "name": "MOBILE_SERVICE:SMS_PARKING_ENABLED",
+                    "type": "SELECT",
+                    "value": "YES"
+                  },
+                  {
+                    "action": "no_change",
+                    "id": "c0cd2be8-c930-4258-88dc-1affeef44935",
+                    "name": "MOBILE_SERVICE:CISCO_SECURITY",
+                    "type": "SELECT",
+                    "value": "YES"
+                  }
+                ],
+                "serviceIdentifier": "385981961258",
+                "usageAdjustments": {}
+              }
+            ],
+            "state": "Acknowledged",
+            "wholesale": false,
+            "wholesaleAgreement": false
+          },
+          "state": "Acknowledged"
+        }
+      ],
+      "parameters": {
+        "MIGRATION": "true",
+        "INVENTORY_OBRT_PRODUCTS_COUNT": "1182912251_801562725:0;1182912251_2110604988:0;1182912251_381765972:0",
+        "ORDER_CONTRACT_ID": "IN2025072834565786",
+        "INVENTORY_PRODUCTS_COUNT": "1182912251_1441161559:0;1182912251_1739779224:0;1182912251_296767658:0;1182912251_853577388:4;1182912251_2019368103:0;1182912251_1653278230:0;1182912251_1528529892:0;1182912251_807301835:0;1182912251_1412574403:4"
+      },
+      "relatedObjects": [],
+      "requestedCompletionDate": "2025-07-28T14:48:00+02:00",
+      "state": "Acknowledged",
+      "user": "migration-client",
+      "userType": "user"
+    },
+    "scResourceId": "3572864f-5a86-40d2-9901-4f102aaea887",
+    "scResourceName": "MIGRATION_HANDSET_CLASS1",
+    "productOrderId": "7021756",
+    "error": "Failed to check product order state: Timeout reached while waiting for order 7021756 to complete"
+  }
+]
